@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    background-color: black;
+    color: white;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.nowrap {
+    border: solid 3px black;
+    width: 220px;
+    height: 220px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wrap{
+    border: solid 3px black;
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+}
+
+.chico1{
+    background-color: brown;
+}
+.chica1{
+    background-color: orange;
+}
+.chica2{
+    background-color: blueviolet;
+}
+.chica3{
+    background-color: pink;
+}
+.chica4{
+    background-color: turquoise;
+}
+.chico2{
+    background-color: orangered;
+}
+
+
+/* TASCA 2 */
+.windows {
+    background-color:rgb(7, 55, 7);
+    width: 700px;
+    padding: 30px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.a {
+    flex-grow: 1;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.mail{
+    flex-grow: 2;
+    background-color: #00a4ef;
+}
+
+.calendar {
+    background-color: purple;
+    flex-grow: 2;
+}
+
+.internet {
+    background-color: #0078d7;
+}
+
+.store {
+    background-color: #107c10;
+}
+
+.people {
+    background-color: #da532c;
+    flex-grow: 2;
+}
+
+.photos {
+    background-color: #2b5797;
+    flex-grow: 2;
+}
+
+.maps {
+    background-color: #603cba;
+}
+
+.sky {
+    background-color: #1ba1e2;
+}
+
+.messaging {
+    background-color: #80397b;
+}
+
+.video {
+    background-color: #ae113b;
+}
+
+.music {
+    background-color: #e3a21a;
+}
+
+.desktop {
+    background-color: #2d89ef;
+        flex-grow: 2;
+}
+
+.weather {
+    background-color: #00aba9;
+        flex-grow: 2;
+}
+
+.xbox {
+    background-color: #107c10;
+}
+
+.camera {
+    background-color: #ae113b;
+}

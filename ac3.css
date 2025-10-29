@@ -1,0 +1,76 @@
+
+.popup{
+background-color: rgb(12, 39, 88);
+color: white;
+justify-content: center;
+text-align: center;
+}
+
+body{
+    border: 2px black solid;
+}
+.tituloinput{
+    display: flex;
+}
+h1, nav{
+    color: purple;
+}
+input{
+    width: 1000px;
+}
+button{
+    background-color: purple;
+}
+.capt1{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+nav > p {
+    margin: 10px;
+}
+.caja1{
+    display: flex;
+    justify-content: center;
+}
+.a{
+    width: 100%;
+    height: 500px;
+    border: 2px black solid;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.caja2 {
+    display: flex;
+}
+
+.b{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 2px black solid;
+}
+
+.caja3 {
+    display: flex;
+}
+
+.c {
+    width: 100%;
+    height: 200px;
+    border: 2px black solid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
